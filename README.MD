@@ -1,13 +1,88 @@
-# CORTEX© 1980 : Composition Rédactionnelle de TEXTE
+# CORTEX© 1980 — A Pioneering Desktop Publishing System for the TRS-80
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:rev:5e1645390d1977cb9023a663fc34b6e51a6becdc/)](https://archive.softwareheritage.org/swh:1:rev:5e1645390d1977cb9023a663fc34b6e51a6becdc/)
 
+**Identifiant de préservation (SWHID) :**
+`swh:1:rev:5e1645390d1977cb9023a663fc34b6e51a6becdc`
+
+[English version](#historical-overview) | [Version française](#historique-du-projet)
+
+## Historical Overview
+
+>CORTEX© (**COmposition Rédactionnelle de TEXte**) is a pioneering French text composition and editing system developed between 1979 and 1980 by Jean-Pierre Castejon at **University Paris VIII**. The project was developed under the scientific influence of **Jérôme Chailloux** 
+>(creator of Le-Lisp and VLISP) => (member of the VLISP team and main architect of Le-Lisp).
+A Testimonial from Jérôme Chailloux:
+
+>"The CORTEX thesis remains a wonderful memory for me. At a time when Desktop Publishing (DTP) had not yet been born, it took a great deal of imagination, inventiveness, and expertise to build such a pioneering system, despite all the hardware and software limitations.
+>And what a preservation effort! Roberto [Di Cosmo] and 'History' will be delighted."
+
+
+**From Craftsmanship to Innovation:**
+Following a serious car accident in 1976, Jean-Pierre Castejon pivoted toward computing. CORTEX was born from this transition, bridging ancestral typographic expertise with the dawn of micro-computing (Z80 / TRS-80). Nearly half a century later, the source code is archived with **Software Heritage** and the **ACONIT** association.
+
+## Evolution & Legacy
+
+* **CORTEX© 1 (1980):** The stable version documented in this archive.
+* **CORTEX© 2:** Integration of J. Chailloux’s hyphenation algorithm and optimization of Selectric 1 timing loops.
+* **1985:** The birth of DTP with the Macintosh, 16-bit PCs, and especially **PostScript** by **John Warnock and Charles Geschke**.
+* **Post-1985 (Expert Systems, 64-bit PCs):**
+    * **MEPA© (Mise En Page Automatique):** A portable C-language system for professional press layout.
+    * **PANDA©:** Automated layout for classified ads (multi-criteria addressing, vertical justification).
+    * **BECHOS©:** Real-time financial data processing for *Les Échos* stock market pages.
+    * **SYFI© (Synthèse Financière):** Fully tagged editorial journal synthesis.
+    * **... and others.**
+
+Built on a Radio-Shack **TRS-80 Model I** with only 48 KB of RAM and programmed in **Zilog Z80 assembly language**, CORTEX transformed a consumer microcomputer into a professional workstation. It was capable of driving an **IBM Selectric** typeball system through a custom electronic interface based on the **Intel 8255 PPI**.
+
+At a time when punched tapes and blind text entry were the industry standard, CORTEX already featured:
+*   **On-screen text editing** with real-time feedback.
+*   **Primitive WYSIWYG correction** and automated typographic composition.
+*   **Real-time layout computation** integrated with the editing process.
+*   **Hardware/Software synchronization** designed to handle electromechanical constraints.
+
+This project stands at the crossroads of traditional typography, phototypesetting, and the DTP (Desktop Publishing) revolution later popularized by the Apple Macintosh, Adobe PostScript, and Aldus PageMaker in the mid-1980s.
+
+---
+
+## Technical Specifications
+
+*   **Platform:** TRS-80 Model I (48 KB RAM)
+*   **Processor:** Zilog Z80A (Assembly Language)
+*   **Output Device:** IBM Selectric Typeball (via 11-magnet hardware control)
+*   **Interface:** Custom Intel 8255 Programmable Peripheral Interface (PPI)
+*   **Display:** 64 × 16 characters
+*   **Innovation:** Real-time timing loops precisely synchronized with the mechanical inertia of the Selectric mechanism.
+
+---
+
+## Digital Heritage & Preservation
+
+This repository is part of a **2026 digital preservation initiative**. The goal is to document and archive a "missing link" in the history of:
+*   Early **Desktop Publishing** (DTP / PAO).
+*   French Microcomputing and **University Research (Paris VIII)**.
+*   Electromechanical text composition and legacy hardware interfacing.
+*   **Constraint-based engineering** on 8-bit systems.
+
+CORTEX demonstrates how advanced editorial and typographic concepts were explored years before commercial DTP systems became mainstream.
+---
+
+# CORTEX© 1980 — Système de PAO précurseur sur TRS-80
+
+## Historique du projet
+=====================================================================
+
+# CORTEX© 1980 : Composition Rédactionnelle de TEXTE
 ======================================================================
 ## 🖋️ PRÉFACE DE JÉRÔME CHAILLOUX
 ======================================================================
 
-> "La thèse CORTEX reste pour moi un excellent souvenir, à une époque où la PAO balbutiait encore sur TRS-80, entre contraintes mémoire, Z80 et sorties imprimantes non graphiques.
-> Quel travail ! C'est Roberto et 'l'Histoire' qui vont être contents."
->
-> — **Jérôme Chailloux** (Père de VLISP, créateur du langage Le-Lisp)
+>"La thèse CORTEX reste pour moi un excellent souvenir. À l'époque où la PAO n'était pas encore née, il a fallu une sacrée dose d'imagination, d'inventivité et de savoir-faire pour construire un tel système, si précurseur, malgré toutes les limitations du matériel et du logiciel.
+>Et quel travail de préservation ! C'est Roberto et 'l'Histoire' qui vont être contents."
+
+> — **Jérôme Chailloux** (Père de VLISP, créateur du langage Le-Lisp) 
+> (membre de l'équipe VLISP et architecte principal du langage Le-Lisp)
+
+### 🚀 Un tournant décisif : de l'artisanat à l'informatique
+À la suite d'un grave accident de voiture en 1976 rendant impossible l'exercice du métier de typographe en position debout, ce projet a marqué un rebond décisif vers l'informatique et la photocomposition dès 1977. CORTEX est ainsi né de la fusion entre un savoir-faire artisanal traditionnel et l'avant-garde technologique de la micro-informatique (Z80 / TRS-80).
 
 ======================================================================
 ## 🛰️ PROLOGUE 2026 : UNE BALISE TEMPORELLE
@@ -17,7 +92,7 @@ Ce dépôt constitue une **"balise temporelle"** ouverte en 2026 pour l'archivag
 
 ### 🚀 Points Clés & Innovation (SEO)
 *   **Pionnier de la PAO :** Transition historique entre la typographie traditionnelle et l'édition sur écran (**WYSIWYG primitif**).
-*   **Ingénierie de pointe :** Pilotage d'une **IBM Selectric** (boule) via un processeur **Zilog Z80** (4300H) et une interface **PPI 8255**.
+*   **Ingénierie de pointe :** Pilotage d'une **IBM Selectric** (boule) via un processeur **Zilog Z80** (ORG 4300H) et une interface **PPI 8255**.
 *   **Symbiose Matérielle :** Collaboration entre l'informatique théorique (Paris VIII), l'électronique discrète et la mécanique de précision (Platine réalisée par un **Meilleur Ouvrier de France**).
 *   **Héritage :** Préservation du savoir-faire face à l'obsolescence, du code assembleur aux algorithmes de mise en page.
 
@@ -34,8 +109,8 @@ Les listings sources sont au format texte brut, pdf(complet) et asm au choix enc
 
 ### 1. Informations Générales
 * **Conception et Développement :** Jean-Pierre Castejon (Maîtrise informatique, niveau Doctorat)
-* **Conseil Scientifique / Mentorat :** Jérôme Chaillou
-* **Plateforme :** Radio-Shack TRS-80 (48K RAM) & IBM Selectric 71 (Boule)
+* **Conseil Scientifique / Mentorat :** Jérôme Chailloux
+* **Plateforme :** Radio-Shack TRS-80 (48K RAM) & IBM Selectric (Boule)
 * **Statut :** Archivage complet effectué en 2026 pour CORTEX© 1980 
  
 ---
@@ -89,19 +164,19 @@ Markdown
     * `INIT` : Initialisation système
 
 ---
-
 ### 6. Évolution et Postérité
+
 * **CORTEX© 1 (1980) :** Version stable documentée ici.
-* **CORTEX© 2 :** Intégration de l'algorithme de césure de J. Chaillou, optimisation du timing Selectric 1.
-* **1985 la PAO est né avec Mackintoch et PC 16 bits et surtout postcript par Paul Brainerd
-* **Années 85+ (Systèmes Experts, PC 64 bits, société Publications Elysées, Jean-Pierre Castejon) : 
-    ** Passage à la **MEPA ©** Labeur Presse (Mise En Page Automatique) (langage C portable) sur PC 64 bits et Vax/Vms Cerci.
-    * **PANDA © :** MEPA des PA Argus (adressage multicritères, 5 colonnes sur 22 pages, justification verticale ).
-    * **BECHOS © :** MEPA Bourse des Échos, flux de données vers sortie MEPA.
-    * **SYFI © :** Synthèse Financière (journal rédactionnel entièrement balisé).
+* **CORTEX© 2 :** Intégration de l'algorithme de césure de J. Chailloux et optimisation des timings Selectric.
+* **1985 :** La PAO est née avec le Macintosh, les PC 16 bits et surtout **PostScript** par **John Warnock et Charles Geschke**.
+* **Années 85+ (Systèmes Experts, PC 64 bits) :**
+    * **MEPA© (Mise En Page Automatique) :** Système en langage C portable pour le labeur presse.
+    * **PANDA© :** MEPA des petites annonces (adressage multicritères, justification verticale).
+    * **BECHOS© :** MEPA Bourse des Échos, flux de données en temps réel.
+    * **SYFI© :** Synthèse Financière (journal rédactionnel entièrement balisé).
+    * **... et autres.**
     * .... 
-    à suivre par d'autres...
-    Franchir le pont, briser le cadre... Déployer ses passerelles virtuelles au fil de ses propres progrès, et continuer au-delà de ses supposées limites. ​AMHA, comme on disait en 1980 ;)
+    C’est en s’affranchissant des cadres établis et en dépassant les limites technologiques de son temps que l’on conçoit de nouvelles passerelles vers l’innovation. Ce projet témoigne de cette volonté de déploiement intellectuel et technique, au-delà des contraintes matérielles de 1980.
     
 Jean-Pierre Castejon
 
