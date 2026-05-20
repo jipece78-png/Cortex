@@ -3,6 +3,9 @@
 
 **Identifiant de préservation (SWHID) :**
 `swh:1:rev:5e1645390d1977cb9023a663fc34b6e51a6becdc`
+[![Consulter le document CORTEX 80](cortex.jpg)](CORTEX_1980.pdf)
+*💡 Cliquez sur l'image ci-dessus pour consulter Histoire_du_Projet "cortex_80.pdf"
+
 
 [English version](#historical-overview) | [Version française](#historique-du-projet)
 
@@ -21,10 +24,10 @@ Following a serious car accident in 1976, Jean-Pierre Castejon pivoted toward co
 
 ## Evolution & Legacy
 
-* **CORTEX© 1 (1980):** The stable version documented in this archive.
-* **CORTEX© 2:** Integration of J. Chailloux’s hyphenation algorithm and optimization of Selectric 1 timing loops.
-* **1985:** The birth of DTP with the Macintosh, 16-bit PCs, and especially **PostScript** by **John Warnock and Charles Geschke**.
-* **Post-1985 (Expert Systems, 64-bit PCs):**
+* **CORTEX© 1 (1980) :** The stable version documented in this archive.
+* **CORTEX© 2 :** Integration of J. Chailloux’s hyphenation algorithm and optimization of Selectric 1 timing loops.
+* **1985 :** Concurrently with the rise of external DTP standards (Macintosh, PostScript), our work shifted toward a new generation of expert systems and portability to 64-bit PCs and large-scale phototypesetting systems.
+* **Post-1985 (Expert Systems, 64-bit PCs, NeoCortex) :**
     * **MEPA© (Mise En Page Automatique):** A portable C-language system for professional press layout.
     * **PANDA©:** Automated layout for classified ads (multi-criteria addressing, vertical justification).
     * **BECHOS©:** Real-time financial data processing for *Les Échos* stock market pages.
@@ -70,7 +73,7 @@ CORTEX demonstrates how advanced editorial and typographic concepts were explore
 ## Historique du projet
 =====================================================================
 
-# CORTEX© 1980 : Composition Rédactionnelle de TEXTE
+# CORTEX© 1980 : Composition Rédactionnelle de TEXte
 ======================================================================
 ## 🖋️ PRÉFACE DE JÉRÔME CHAILLOUX
 ======================================================================
@@ -90,7 +93,7 @@ CORTEX demonstrates how advanced editorial and typographic concepts were explore
 
 Ce dépôt constitue une **"balise temporelle"** ouverte en 2026 pour l'archivage patrimonial (**Software Heritage / UNESCO**). Il documente la genèse de **CORTEX**, une innovation majeure de la micro-informatique française des années 80.
 
-### 🚀 Points Clés & Innovation (SEO)
+### 🚀 Points Clés & Innovation 1980 (SEO)
 *   **Pionnier de la PAO :** Transition historique entre la typographie traditionnelle et l'édition sur écran (**WYSIWYG primitif**).
 *   **Ingénierie de pointe :** Pilotage d'une **IBM Selectric** (boule) via un processeur **Zilog Z80** (ORG 4300H) et une interface **PPI 8255**.
 *   **Symbiose Matérielle :** Collaboration entre l'informatique théorique (Paris VIII), l'électronique discrète et la mécanique de précision (Platine réalisée par un **Meilleur Ouvrier de France**).
@@ -168,8 +171,8 @@ Markdown
 
 * **CORTEX© 1 (1980) :** Version stable documentée ici.
 * **CORTEX© 2 :** Intégration de l'algorithme de césure de J. Chailloux et optimisation des timings Selectric.
-* **1985 :** La PAO est née avec le Macintosh, les PC 16 bits et surtout **PostScript** par **John Warnock et Charles Geschke**.
-* **Années 85+ (Systèmes Experts, PC 64 bits) :**
+* **1985 : ** Concomitamment à l'essor des standards PAO externes (Macintosh, PostScript), nos travaux s'orientent vers une nouvelle génération de systèmes experts et la portabilité sur PC 64 bits et gros système de photocomposition.
+* **Années 85+ (Systèmes Experts, PC 64 bits, NEOCORTEX) :**
     * **MEPA© (Mise En Page Automatique) :** Système en langage C portable pour le labeur presse.
     * **PANDA© :** MEPA des petites annonces (adressage multicritères, justification verticale).
     * **BECHOS© :** MEPA Bourse des Échos, flux de données en temps réel.
